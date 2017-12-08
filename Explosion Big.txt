@@ -1,0 +1,33 @@
+[General]
+Type = PRJ_IMAGE
+Image = Explosion Big.png
+Animating = True
+AnimRate = 18
+AnimType = ANI_LOOP
+Gravity = 0
+Dampening = 0.75
+Timer = 0.5
+TimerVar = 0.2
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+Shake = 4
+
+[Hit]
+Type = Carve
+Damage = 4
+Projectiles = True
+
+[PlayerHit]
+Type = Injure
+Damage = 5
+
+[Projectile]
+Angle = 270
+Amount = 2
+Speed = 50
+Speedvar = 20
+Spread = 10
+Projectile = Smoke.txt

@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+Image = Plasmoid.png
+Animating = True
+AnimRate = 12
+AnimType = ANI_ONCE
+Gravity = -10
+Dampening = 0.9
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1

@@ -1,0 +1,12 @@
+[General]
+Name = Flamethrower
+Recharge = 4
+Drain = 1
+ROF = 10
+Sound = Flamethrower.wav
+
+[Projectile]
+Amount = 2
+Speed = 120
+Spread = 7
+Projectile = Flamethrower Flame.txt

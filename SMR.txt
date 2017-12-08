@@ -1,0 +1,13 @@
+[General]
+Name = SMR
+Recharge = 1.5
+Drain = 21
+ROF = 500
+Sound = SMR.wav
+
+[Projectile]
+Amount = 2
+Speed = 240
+SpeedVar = 3
+Spread = 10
+Projectile = Rocket.txt

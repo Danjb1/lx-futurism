@@ -1,0 +1,13 @@
+[General]
+Name = Utility Box (Barricade)
+Recoil = 0
+Recharge = 1
+Drain = 101
+ROF = 1000
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 80
+Spread = 1
+Projectile = Barricade Ball.txt

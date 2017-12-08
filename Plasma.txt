@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_IMAGE
+Image = Plasma.png
+Animating = True
+AnimRate = 45
+AnimType = ANI_LOOP
+Gravity = -2
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Carve
+Damage = 2
+Sound = Explosion Plasma.wav
+Shake = 1
+Projectiles = True
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Sound = Explosion Plasma.wav
+Shake = 1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+SpeedVar = 0
+Spread = 0
+Projectile = Explosion Plasma.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Delay = 25
+Projectile = Plasmoid.txt

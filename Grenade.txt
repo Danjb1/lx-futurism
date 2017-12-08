@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_IMAGE
+Image = Grenade.png
+Rotating = True
+RotIncrement = 45
+RotSpeed = 200
+Trail = TRL_PROJECTILE
+Gravity = 130
+
+[Hit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 4
+Sound = Explosion Big.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 4
+#Sound = Explosion Big.wav
+
+[Projectile]
+Amount = 12
+Speed = 50
+Spread = 360
+Projectile = Explosion Big Delay.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 25
+Projectile = Smoke.txt

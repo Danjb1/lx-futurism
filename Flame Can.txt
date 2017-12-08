@@ -1,0 +1,15 @@
+[General]
+Name = Flame Can
+Recoil = 1
+Recharge = 1.5
+Drain = 26
+ROF = 2000
+Sound = Flame Can.wav
+
+[Projectile]
+Amount = 1
+Speed = 100
+SpeedVar = 10
+Spread = 3
+Projectile = Flame Can P.txt
+

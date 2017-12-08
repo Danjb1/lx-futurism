@@ -1,0 +1,36 @@
+[General]
+Type = PRJ_IMAGE
+Image = Rocket.png
+UseAngle = true
+AngleImages = 18
+Dampening = 1.03
+Gravity = 5
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 15
+Shake = 4
+Sound = Explosion Massive.wav
+Projectiles = True
+
+[PlayerHit]
+Type = Explode
+Damage = 15
+Shake = 4
+Sound = Explosion Massive.wav
+Projectiles = True
+
+[Projectile]
+Amount = 10
+Speed = 200
+SpeedVar = 30
+Spread = 360
+Projectile = Explosion Big Delay.txt
+
+[ProjectileTrail]
+Amount = 16
+Spread = 360
+Speed = 100
+Delay = 30
+Projectile = SMR Trail.txt

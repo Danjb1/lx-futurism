@@ -1,0 +1,13 @@
+[General]
+Name = Utility Box (Jetpack)
+Recoil = -1
+Recharge = 20
+Drain = 0
+ROF = 20
+Sound = Throw.wav
+
+[Projectile]
+Amount = 4
+Speed = -240
+Spread = 10
+Projectile = Jetpack Droppage.txt

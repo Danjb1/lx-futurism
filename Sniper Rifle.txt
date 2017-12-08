@@ -1,0 +1,15 @@
+[General]
+Name = Sniper Rifle
+Recoil = 8
+Recharge = 2
+Drain = 34
+ROF = 800
+LaserSight = True
+Sound = Rifle.wav
+
+[Projectile]
+Amount = 1
+Speed = 650
+Spread = 1
+Projectile = Sniper Bullet 1.txt
+

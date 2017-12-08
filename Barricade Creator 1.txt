@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.5
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Greendirt
+
+[ProjectileTrail]
+Speed = 0
+Delay = 25
+Amount = 1
+Projectile = Barricade.txt

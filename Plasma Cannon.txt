@@ -1,0 +1,13 @@
+[General]
+Name = Plasma Cannon
+Recharge = 7
+Drain = 3
+ROF = 20
+Sound = Plasma Cannon.wav
+
+[Projectile]
+Amount = 1
+Speed = 170
+SpeedVar = 5
+Spread = 3
+Projectile = Plasma.txt

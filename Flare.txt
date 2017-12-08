@@ -1,0 +1,12 @@
+[General]
+Name = Flare
+Recoil = 15
+Recharge = 0.5
+Drain = 101
+ROF = 1000
+Sound = Flare.wav
+
+[Projectile]
+Amount = 1
+Speed = 300
+Projectile = Flare P.txt

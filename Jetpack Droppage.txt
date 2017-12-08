@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 300
+Dampening = 0.9
+Timer = 0.005
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Spread = 20
+Speed = 0
+Angle = -90
+Projectile = Jetpack Uppage.txt

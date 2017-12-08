@@ -1,0 +1,12 @@
+[General]
+Type = PRJ_IMAGE
+Image = Medikit.png
+Gravity = 100
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.5
+
+[PlayerHit]
+Type = Injure
+Damage = -30

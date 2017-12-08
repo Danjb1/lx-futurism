@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_IMAGE
+Image = Flame Can.png
+Rotating = True
+RotIncrement = 23
+RotSpeed = 250
+Gravity = 100
+Trail = TRL_PROJECTILE
+Timer = 2
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.65
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[Projectile]
+Amount = 60
+Speed = 180
+Spread = 360
+Projectile = Flame.txt
+
+[ProjectileTrail]
+Amount = 4
+Spread = 360
+Speed = 80
+Delay = 20
+Projectile = Sparks.txt

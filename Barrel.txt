@@ -1,0 +1,33 @@
+[General]
+Type = PRJ_IMAGE
+Image = Barrel.png
+Rotating = True
+RotIncrement = 90
+RotSpeed = 150
+Gravity = 100
+Timer = 3
+TimerVar = 1
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.8
+#BounceExplode = 1
+#Sound = Bounce.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[Time]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[Projectile]
+Amount = 40
+Speed = 180
+Spread = 360
+Projectile = Explosion Medium Fake.txt

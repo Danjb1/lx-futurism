@@ -1,0 +1,19 @@
+[General]
+Type = PRJ_IMAGE
+Image = Flame.png
+UseAngle = True
+AngleImages = 9
+Gravity = 0
+Timer = 0.25
+
+[Hit]
+Type = Explode
+Damage = 1
+
+[PlayerHit]
+Type = Explode
+Damage = 15
+
+[Time]
+Type = Explode
+Damage = 5

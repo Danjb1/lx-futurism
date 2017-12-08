@@ -1,0 +1,18 @@
+[General]
+Type = PRJ_IMAGE
+Image = Smoke.png
+Animating = True
+AnimRate = 12
+AnimType = ANI_ONCE
+Gravity = -10
+Dampening = 0.9
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+#Type = Injure
+#Damage = 1
+Type = Explode
+Damage = -1

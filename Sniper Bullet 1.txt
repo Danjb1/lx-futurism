@@ -1,0 +1,33 @@
+[General]
+Type = PRJ_IMAGE
+Image = Sniper Bullet.png
+Gravity = 1
+Trail = TRL_PROJECTILE
+Timer = 0.15
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 10
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+UseAngle = True
+Amount = 1
+Speed = 650
+Spread = 0
+Projectile = Sniper Bullet 2.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Delay = 999999
+Projectile = Shell.txt

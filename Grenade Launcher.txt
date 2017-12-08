@@ -1,0 +1,14 @@
+[General]
+Name = Grenade Launcher
+Recoil = 1
+Recharge = 5
+Drain = 101
+ROF = 1000
+Sound = Grenade.wav
+
+[Projectile]
+Amount = 1
+Speed = 160
+SpeedVar = 10
+Spread = 2
+Projectile = Grenade.txt

@@ -1,0 +1,32 @@
+[General]
+Type = PRJ_IMAGE
+Image = Sparks.png
+UseAngle = True
+AngleImages = 9
+Dampening = 0.9
+Timer = 0.2
+Gravity = 100
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+#Type = Injure
+#Damage = 1
+Type = Explode
+Damage = -1
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Angle = 270
+Amount = 2
+Speed = 50
+Speedvar = 20
+Spread = 10
+Projectile = Smoke.txt

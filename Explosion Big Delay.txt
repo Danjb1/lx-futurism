@@ -1,0 +1,27 @@
+[General]
+Type = PRJ_IMAGE
+Image = Explosion Big Fake.png
+Animating = True
+AnimRate = 9
+AnimType = ANI_LOOP
+Gravity = 0
+Timer = 0.08
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Nothing
+
+[Projectile]
+Amount = 1
+Speed = 0
+Spread = 0
+Projectile = Explosion Big.txt

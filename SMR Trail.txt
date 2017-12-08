@@ -1,0 +1,18 @@
+[General]
+Type = PRJ_IMAGE
+Image = SMR Trail.png
+Animating = True
+AnimRate = 18
+AnimType = ANI_ONCE
+Gravity = -10
+Dampening = 0.8
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+#Type = Injure
+#Damage = 1
+Type = Explode
+Damage = -1

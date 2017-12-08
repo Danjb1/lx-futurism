@@ -1,0 +1,14 @@
+[General]
+Name = Bladeshifter
+Recoil = 1
+Recharge = 4
+Drain = 26
+ROF = 500
+Sound = Throw.wav
+
+[Projectile]
+Amount = 3
+Speed = 160
+SpeedVar = 50
+Spread = 30
+Projectile = Blade.txt

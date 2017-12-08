@@ -1,0 +1,39 @@
+[General]
+ModName = Futurism
+
+[Weapons]
+NumWeapons = 20
+Weapon1 = Assault Rifle.txt
+Weapon2 = Bladeshifter.txt
+Weapon3 = Electro Bomb.txt
+Weapon4 = Explosive Barrel.txt
+Weapon5 = Flame Can.txt
+Weapon6 = Flamethrower.txt
+Weapon7 = Flare.txt
+Weapon8 = Grenade Launcher.txt
+Weapon9 = Laser.txt
+Weapon10 = Missile Launcher.txt
+Weapon11 = Plasma Cannon.txt
+Weapon12 = Utility Box (Barricade).txt
+Weapon13 = Utility Box (Digger).txt
+Weapon14 = Utility Box (Dirt Ball).txt
+Weapon15 = Utility Box (Health).txt
+Weapon16 = Utility Box (Jetpack).txt
+Weapon17 = SMR.txt
+Weapon18 = Sniper Rifle.txt
+Weapon19 = Toxic Gas Can.txt
+Weapon20 = Volt Gun.txt
+
+[NinjaRope]
+RopeLength = 300
+RestLength = 20
+Strength = 6
+
+[Worm]
+AngleSpeed = 200
+GroundSpeed = 13
+AirSpeed = 5
+Gravity = 80
+JumpForce = -55
+AirFriction = 0
+GroundFriction = 0.4

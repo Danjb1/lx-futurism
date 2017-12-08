@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Electro Bomb.png
+Animating = True
+AnimRate = 15
+AnimType = ANI_LOOP
+Gravity = 100
+Trail = TRL_PROJECTILE
+Timer = 8
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.5
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Shake = 4
+
+[ProjectileTrail]
+Amount = 10
+Speed = 80
+Speedvar = 30
+Spread = 360
+Projectile = Electro Volt.txt

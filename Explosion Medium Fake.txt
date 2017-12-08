@@ -1,0 +1,34 @@
+# Used by the Explosive Barrel to get the explosions in the right place
+
+[General]
+Type = PRJ_IMAGE
+Image = Explosion Medium Fake.png
+Animating = True
+AnimRate = 3
+AnimType = ANI_LOOP
+Gravity = 50
+Dampening = 0.9
+Timer = 0.2
+TimerVar = 0.1
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Nothing
+
+[Projectile]
+UseAngle = True
+Angle = 0
+Amount = 1
+Speed = 50
+Speedvar = 20
+Spread = 0
+Projectile = Explosion Medium.txt

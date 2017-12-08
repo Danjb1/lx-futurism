@@ -1,0 +1,27 @@
+[General]
+Type = PRJ_IMAGE
+Image = Sniper Bullet.png
+Gravity = 1
+
+Timer = 0.15
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 50
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+UseAngle = True
+Amount = 1
+Speed = 650
+Spread = 0
+Projectile = Sniper Bullet 3.txt

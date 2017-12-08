@@ -1,0 +1,27 @@
+[General]
+Type = PRJ_IMAGE
+Image = Volt.png
+UseAngle = true
+AngleImages = 18
+Gravity = 0
+Timer = 0.05
+
+[Hit]
+Type = Bounce
+BounceCoEff = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 2
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Angle = 0
+UseAngle = True
+Speed = 90
+Amount = 1
+Projectile = Destructo Volt.txt

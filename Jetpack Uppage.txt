@@ -1,0 +1,27 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible Big.png
+Gravity = -100
+Timer = 0.08
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 1
+Angle = 90
+Speed = 70
+SpeedVar = 10
+Spread = 15
+Projectile = Jetpack Flame.txt

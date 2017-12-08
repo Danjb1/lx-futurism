@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Image = Toxic Gas Can.png
+Rotating = True
+RotIncrement = 23
+RotSpeed = 150
+Trail = TRL_PROJECTILE
+Gravity = 200
+Timer = 10
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.3
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Shake = 1
+
+[ProjectileTrail]
+Amount = 1
+Delay = 23
+Speed = 90
+Speedvar = 60
+Spread = 360
+Projectile = Toxic Gas.txt

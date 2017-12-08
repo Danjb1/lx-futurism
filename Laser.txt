@@ -1,0 +1,13 @@
+[General]
+Name = Hyper Ray
+Type = WPN_BEAM
+Recharge = 3
+Drain = 2
+ROF = 1
+#Sound = Laser.wav
+
+[Beam]
+Damage = 1
+PlayerDamage = 1
+Colour = 0,128,255
+Length = 9999999

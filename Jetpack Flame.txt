@@ -1,0 +1,15 @@
+[General]
+Type = PRJ_IMAGE
+Image = Jetpack.png
+Animating = True
+AnimRate = 15
+AnimType = ANI_ONCE
+Gravity = 100
+Dampening = 0.95
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing

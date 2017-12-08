@@ -1,0 +1,14 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.05
+
+[Hit]
+Type = Greendirt
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Greendirt

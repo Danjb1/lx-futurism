@@ -1,0 +1,15 @@
+[General]
+Name = Assault Rifle
+Recoil = 4
+Recharge = 3
+Drain = 1
+ROF = 75
+Sound = Assault Rifle.wav
+
+[Projectile]
+Amount = 1
+Speed = 600
+SpeedVar = 10
+Spread = 2
+Projectile = Bullet.txt
+

@@ -1,0 +1,14 @@
+[General]
+Name = Utility Box (Medikit)
+Recoil = 0
+Recharge = 0.5
+Drain = 101
+ROF = 1000
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 20
+SpeedVar = 5
+Spread = 5
+Projectile = Medikit.txt

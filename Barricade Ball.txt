@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Barricade Ball.png
+Rotating = True
+RotIncrement = 90
+RotSpeed = 200
+Gravity = 0
+Timer = 0.3
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.25
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+Shake = 1
+
+[Projectile]
+Angle = 90
+UseAngle = True
+Speed = 180
+Amount = 1
+Projectile = Barricade Creator 1.txt

@@ -1,0 +1,37 @@
+[General]
+Type = PRJ_IMAGE
+Image = Flare.png
+Animating = True
+AnimRate = 20
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = 0
+Timer = 6
+TimerVar = 3
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 15
+Projectiles = True
+Shake = 4
+
+[Projectile]
+Amount = 720
+Speed = 300
+SpeedVar = 50
+Spread = 360
+Projectile = Flare Flash.txt
+
+[ProjectileTrail]
+Amount = 6
+Speed = 200
+SpeedVar = 50
+Spread = 360
+Delay = 30
+Projectile = Flare Explosion.txt

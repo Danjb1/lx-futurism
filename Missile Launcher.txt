@@ -1,0 +1,14 @@
+[General]
+Name = Missile Launcher
+Recoil = 8
+Recharge = 5
+Drain = 34
+ROF = 500
+Sound = Missile Launcher.wav
+
+[Projectile]
+Amount = 1
+Speed = 100
+SpeedVar = 20
+Spread = 2
+Projectile = Missile.txt

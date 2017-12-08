@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Image = Blade.png
+Rotating = True
+RotIncrement = 45
+RotSpeed = 300
+Gravity = 80
+Timer = 6
+TimerVar = 2
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+BounceExplode = 3
+#Sound = Metal.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = 3
+Shake = 2

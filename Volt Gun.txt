@@ -1,0 +1,13 @@
+[General]
+Name = Volt Gun
+Recoil = 0
+Recharge = 1.5
+Drain = 21
+ROF = 100
+Sound = Volt Gun.wav
+
+[Projectile]
+Amount = 90
+Speed = 80
+Spread = 360
+Projectile = Volt 1.txt
