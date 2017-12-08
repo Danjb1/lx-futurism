@@ -8,23 +8,23 @@ Compile the text files using *gc.exe* that ships with the game. Place the compil
 
 ## Weapons
 
-Assault Rifle
-Bladeshifter
-Electro Bomb
-Explosive Barrel
-Flame Can
-Flamethrower
-Flare
-Grenade Launcher
-Laser
-Missile Launcher
-Plasma Cannon
-Utility Box (Barricade)
-Utility Box (Digger)
-Utility Box (Dirt Ball)
-Utility Box (Health)
-Utility Box (Jetpack)
-SMR
-Sniper Rifle
-Toxic Gas Can
-Volt Gun
+    Assault Rifle
+    Bladeshifter
+    Electro Bomb
+    Explosive Barrel
+    Flame Can
+    Flamethrower
+    Flare
+    Grenade Launcher
+    Laser
+    Missile Launcher
+    Plasma Cannon
+    Utility Box (Barricade)
+    Utility Box (Digger)
+    Utility Box (Dirt Ball)
+    Utility Box (Health)
+    Utility Box (Jetpack)
+    SMR
+    Sniper Rifle
+    Toxic Gas Can
+    Volt Gun
